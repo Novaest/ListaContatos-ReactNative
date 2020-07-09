@@ -50,59 +50,14 @@ function Separator() {
           )
         }
       />
-      {/*
-              <View style={styles.itemNaLista}>
-                <Text>{contato.item.value}</Text>
-                <Text>{contato.item.nome}</Text>
-                <Text>{contato.item.numero}</Text>
-              </View>
-
-
-        <FlatList
-        data={lembretes}
-        renderItem={
-          lembrete => (
-            <LembreteItem
-              chave={lembrete.item.key}
-              lembrete={lembrete.item.value}
-              onDelete={removerLembrete} />
-          )
-        }
-      />
-      */}
       </View>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  itemNaLista: {
-    padding: 12,
-    paddingTop:2,
-    marginTop: 4,
-    backgroundColor: '#CCC',
-    borderColor: '#000',
-    borderWidth: 1,
-    marginBottom: 8,
-    borderRadius: 8
-  },
-  ContatoTexto:{
-    fontSize: 18,
-    fontFamily:'sans-serif'
-  },
   telaPrincipalView: {
   padding: 50
-  },
-  lembreteView: {
-  flexDirection: 'row',
-  justifyContent: 'space-between',
-  alignItems: "center"
-  },
-  ContatoInputText: {
-  width: '80%',
-  borderBottomColor: '#737373',
-  borderBottomWidth: StyleSheet.hairlineWidth,
-  padding: 15
   },
   separator: {
     marginVertical: 8,
